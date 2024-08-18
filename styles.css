@@ -32,7 +32,6 @@ header {
     width: 100px; /* Adjust this value to match the width of the toggle button */
 }
 
-
 .header-buttons {
     display: flex;
     align-items: center;
@@ -225,11 +224,17 @@ header {
 
 .module-info h3 {
     margin-top: 0;
-    color: #3949ab;
+    color: #c3e01f;
 }
 
 .module-info ul {
     padding-left: 20px;
+}
+
+
+#modules-list {
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
 }
 
 .CodeMirror {

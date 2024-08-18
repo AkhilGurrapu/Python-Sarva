@@ -36,7 +36,7 @@ export const variables = {
     practice: `# Variables and Assignment
 
 # Assign your name to a variable
-name = "Your Name"
+name = "Akhil Gurrapu"
 
 # Assign your age to a variable
 age = 25
@@ -45,20 +45,20 @@ age = 25
 height = 1.75
 
 # Print out the variables
-print("Name: {}".format(name))
-print("Age: {}".format(age))
-print("Height: {}".format(height))
+print("Name: " + str(name))
+print("Age: " + str(age))
+print("Height: " + str(height))
 
 # Try modifying the variables and see how the output changes!
 
 # Multiple assignment
 x, y, z = 1, 2, 3
-print("x: {}, y: {}, z: {}".format(x, y, z))
+print("x: " + str(x) + ", y: " + str(y) + ", z: " + str(z))
 
 # Swap variables without a temporary variable
 a, b = 10, 20
-print("Before swap: a = {}, b = {}".format(a, b))
+print("Before swap: a = " + str(a) + ", b = " + str(b))
 a, b = b, a
-print("After swap: a = {}, b = {}".format(a, b))
+print("After swap: a = " + str(a) + ", b = " + str(b))
 `
 };
