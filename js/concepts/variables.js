@@ -31,12 +31,34 @@ export const variables = {
         print(a, b, c)
         </pre>
 
-        <p>Try creating and using variables in the practice area!</p>
+        <p>Try modifying and running the code in the editor!</p>
     `,
-    practice: `# Create a variable called 'name' and assign it your name
-# Then print a greeting using this variable
+    practice: `# Variables and Assignment
 
-# Your code here
+# Assign your name to a variable
+name = "Your Name"
 
+# Assign your age to a variable
+age = 25
+
+# Assign a floating-point number to a variable
+height = 1.75
+
+# Print out the variables
+print("Name: {}".format(name))
+print("Age: {}".format(age))
+print("Height: {}".format(height))
+
+# Try modifying the variables and see how the output changes!
+
+# Multiple assignment
+x, y, z = 1, 2, 3
+print("x: {}, y: {}, z: {}".format(x, y, z))
+
+# Swap variables without a temporary variable
+a, b = 10, 20
+print("Before swap: a = {}, b = {}".format(a, b))
+a, b = b, a
+print("After swap: a = {}, b = {}".format(a, b))
 `
 };

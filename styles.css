@@ -23,7 +23,15 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
 }
+
+
+.header-spacer {
+    width: 100px; /* Adjust this value to match the width of the toggle button */
+}
+
 
 .header-buttons {
     display: flex;
@@ -37,7 +45,6 @@ header {
     font-size: 1rem;
     cursor: pointer;
     padding: 0.5rem;
-    margin-left: 0.5rem;
 }
 
 .sidebar {

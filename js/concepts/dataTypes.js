@@ -13,72 +13,42 @@ export const dataTypes = {
             <li><strong>dict</strong>: Key-value pairs (e.g., {"name": "John", "age": 30})</li>
         </ul>
         
-        <h4>Example:</h4>
-        <pre>
-        # Integer
-        age = 25
-        print(type(age))  # <class 'int'>
-
-        # Float
-        pi = 3.14159
-        print(type(pi))  # <class 'float'>
-
-        # String
-        name = "Alice"
-        print(type(name))  # <class 'str'>
-
-        # Boolean
-        is_student = True
-        print(type(is_student))  # <class 'bool'>
-
-        # List
-        fruits = ["apple", "banana", "cherry"]
-        print(type(fruits))  # <class 'list'>
-
-        # Tuple
-        coordinates = (10, 20)
-        print(type(coordinates))  # <class 'tuple'>
-
-        # Dictionary
-        person = {"name": "Bob", "age": 30}
-        print(type(person))  # <class 'dict'>
-        </pre>
-
         <p>You can use the <code>type()</code> function to check the type of any variable.</p>
     `,
-    practice: `# Practice: Create variables of different types and print their types
+    practice: `# Data Types in Python
 
-# Create an integer variable named 'quantity' and assign it a value
-quantity = 
+# Integer
+age = 25
+print("Age:", age, "Type:", type(age))
 
-# Create a float variable named 'price' and assign it a value
-price = 
+# Float
+pi = 3.14159
+print("Pi:", pi, "Type:", type(pi))
 
-# Create a string variable named 'product' and assign it a value
-product = 
+# String
+name = "Alice"
+print("Name:", name, "Type:", type(name))
 
-# Create a boolean variable named 'in_stock' and assign it a value
-in_stock = 
+# Boolean
+is_student = True
+print("Is Student:", is_student, "Type:", type(is_student))
 
-# Create a list variable named 'colors' with at least 3 color names
-colors = 
+# List
+fruits = ["apple", "banana", "cherry"]
+print("Fruits:", fruits, "Type:", type(fruits))
 
-# Create a tuple variable named 'dimensions' with width and height
-dimensions = 
+# Tuple
+coordinates = (10, 20)
+print("Coordinates:", coordinates, "Type:", type(coordinates))
 
-# Create a dictionary variable named 'book' with 'title' and 'author' keys
-book = 
+# Dictionary
+person = {"name": "Bob", "age": 30}
+print("Person:", person, "Type:", type(person))
 
-# Print the type of each variable you created
-print(type(quantity))
-print(type(price))
-print(type(product))
-print(type(in_stock))
-print(type(colors))
-print(type(dimensions))
-print(type(book))
+# Try modifying these variables or creating your own!
+# For example, create a list of your favorite colors:
+# my_colors = ["red", "blue", "green"]
+# print("My favorite colors:", my_colors)
 
-# Bonus: Try to change the value of 'dimensions' tuple. What happens?
-# dimensions[0] = 100  # Uncomment this line and run the code
 `
 };
