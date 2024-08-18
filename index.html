@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Learner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/dracula.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Python Learner</div>
+        <div class="header-buttons">
+            <button id="toggle-topics" class="sidebar-toggle">☰ Topics</button>
+            <button id="preview-modules" class="sidebar-toggle">📚 Modules</button>
+        </div>
+    </header>
+
+    <div id="topics-sidebar" class="sidebar left-sidebar">
+        <h2>Python Topics</h2>
+        <ul id="topic-list"></ul>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="left-column">
+                <h2>Python Concepts</h2>
+                <div class="concept-slider">
+                    <button id="prev-concept" class="slider-btn">❮</button>
+                    <div id="current-concept"></div>
+                    <button id="next-concept" class="slider-btn">❯</button>
+                </div>
+                <div id="concept-content"></div>
+            </div>
+            <div id="resizer"></div>
+            <div class="right-column">
+                <div class="python-editor-container">
+                    <textarea id="python-editor"></textarea>
+                </div>
+                <button id="run-code">Run Code</button>
+                <div id="output-area"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div id="modules-sidebar" class="sidebar right-sidebar">
+        <div class="sidebar-header">
+            <h2>Python Modules</h2>
+            <button class="close-button">×</button>
+        </div>
+        <div id="modules-content"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/python/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/closebrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/edit/matchbrackets.min.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
